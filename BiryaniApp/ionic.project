@@ -1,6 +1,6 @@
 {
   "name": "BiryaniApp",
-  "app_id": "",
+  "app_id": "ef741b42",
   "gulpStartupTasks": [
     "sass",
     "watch"
