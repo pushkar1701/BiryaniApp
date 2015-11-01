@@ -1,12 +1,12 @@
-$light:                           #fff !default;
-$stable:                          #f8f8f8 !default;
-$positive:                        #387ef5 !default;
-$calm:                            #11c1f3 !default;
-$balanced:                        #33cd5f !default;
-$energized:                       #ffc900 !default;
-$assertive:                       #ef473a !default;
-$royal:                           #886aea !default;
-$dark:                            #444 !default;
+$light: #fff !default;
+$stable: #f8f8f8 !default;
+$positive: #387ef5 !default;
+$calm: #11c1f3 !default;
+$balanced: #33cd5f !default;
+$energized: #ffc900 !default;
+$assertive: #ef473a !default;
+$royal: #886aea !default;
+$dark: #444 !default;
 $font-stack: 'Open Sans', sans-serif;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
@@ -19,12 +19,14 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .slider {
     height: 100%;
 }
-.slider-slide{
+
+.slider-slide {
     padding-top: 60px;
     color: #000;
     text-align: center;
     font-family: $font-stack;
     font-weight: 300;
+    overflow-y: scroll;
 }
 
 .slider-slide:before {
@@ -50,9 +52,11 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 #logo {
     margin: 30px 0px;
 }
+
 .bar .title.title-left {
     text-align: center;
 }
+
 #list {
     width: 90%;
     margin: auto;
