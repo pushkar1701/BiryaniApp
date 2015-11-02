@@ -20,9 +20,11 @@ angular.module('ionicApp', ['ionic'])
 
 .controller('IntroCtrl', function($scope, $state, $ionicSlideBoxDelegate) {
  
-  // Called to navigate to the main app
+    // Called to navigate to the main app
+  navigator.splashscreen.show();
   $scope.startApp = function() {
-    $state.go('main');
+      $state.go('main');
+      navigator.splashscreen.hide();
   };
   $scope.next = function() {
     $ionicSlideBoxDelegate.next();
